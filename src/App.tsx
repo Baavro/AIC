@@ -4,6 +4,8 @@ import RegistrationPage from './pages/RegistrationPage';
 import ActivitiesPage from './pages/ActivitiesPage';
 import AboutUsPage from './pages/AboutUsPage';
 import NavBar from './components/NavBar';
+import RegisterFooter from './components/RegisterFooter';
+import ContactFooter from './components/ContactFooter';
 
 function App() {
   return (
@@ -16,6 +18,11 @@ function App() {
           <Route path="/activities" element={<ActivitiesPage />} />
           <Route path="/register" element={<RegistrationPage />} />
         </Routes>
+        {/* Footer*/}
+        <div className="w-full">
+          <RegisterFooter />
+          <ContactFooter />
+        </div>
       </BrowserRouter>
     </div>
   );

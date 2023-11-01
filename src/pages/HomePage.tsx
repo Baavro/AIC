@@ -3,6 +3,7 @@ import JoinOurCommunityCard from '../components/JoinOurCommunityCard';
 import Objective from '../components/Objective';
 import WhatIs from '../components/WhatIs';
 import Members from '../components/Members';
+import Testimonials from '../components/Testimonials';
 
 type Props = {};
 
@@ -39,13 +40,14 @@ const HomePage = (props: Props) => {
       {/* What and Companies */}
       <WhatIs />
       {/* Our Objective */}
-      <div className='min-h-screen flex flex-col justify-start items-center'>
+      <div className="min-h-screen flex flex-col justify-start items-center">
         <Objective />
         <Activities />
       </div>
-      {/* Heads Of Council */}
-      {/* Members */}
+      {/* Council Members */}
       <Members />
+      {/* Testimonials */}
+      <Testimonials />
     </div>
   );
 };

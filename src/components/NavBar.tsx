@@ -5,16 +5,15 @@ const NavBar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const location = useLocation();
 
-  useEffect(() => {
-  }, []);
+  useEffect(() => {}, [setIsSticky]);
 
   return (
     <div
       className={`bg-white ${
         isSticky ? 'text-black fixed top-0 left-0 right-0' : ''
-      } ${isSticky ? 'bg-white' : ''} ${!isSticky ? 'h-16' : 'hidden'}`}
+      } ${isSticky ? 'bg-white' : ''} ${!isSticky ? '' : 'hidden'}`}
     >
-      <div className="container mx-auto flex items-center justify-end p-4 space-x-2">
+      <div className="container mx-auto flex items-center justify-end p-4 space-x-4 lg:text-xl max-lg:text-lg max-sm:text-sm">
         <div className="flex space-x-4">
           <NavLink to="/" label="Home" currentPath={location.pathname} />
           <NavLink
@@ -30,7 +29,7 @@ const NavBar = () => {
         </div>
         <Link
           to="/register"
-          className="text-white font-bold rounded bg-blue-500 p-1"
+          className="text-white font-bold rounded bg-blue-500 p-2 px-4"
         >
           Register
         </Link>

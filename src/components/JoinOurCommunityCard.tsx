@@ -65,9 +65,7 @@ const ScrollingLogo = ({ imgSrc, text }: any) => {
         alt=""
         src={imgSrc}
       />
-      <div className="relative font-medium w-min">
-        {text}
-      </div>
+      <div className="relative font-medium w-min">{text}</div>
     </div>
   );
 };

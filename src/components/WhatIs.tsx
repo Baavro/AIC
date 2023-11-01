@@ -13,6 +13,8 @@ const ImgSrc = [
   'https://placehold.co/90x90/png',
 ];
 
+
+
 const WhatIs = (props: Props) => {
   return (
     <div className="min-h-screen flex flex-col justify-start">
@@ -20,7 +22,7 @@ const WhatIs = (props: Props) => {
         <span className="lg:text-4xl max-lg:text-2xl max-sm:textl-xl font-bold lg:pb-8 max-lg:pb-6 max-sm:pb-4">
           What is AI Council?
         </span>
-        <span className="lg:w-[75%] max-lg:w-[90%] max-sm:w-full px-4 lg:text-xl max-lg:text-lg max-sm:text-sm leading-8 font-semibold">
+        <span className="text-[#292524] lg:w-[75%] max-lg:w-[90%] max-sm:w-full px-4 lg:text-xl max-lg:text-lg max-sm:text-sm leading-8">
           Copy The All India Artificial Intelligence Council is a collaborative
           agglomerate of Artificial intelligence organisations of colleges, with
           select IITs at the helm. We foster a culture of innovation and

@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo } from 'react';
 
 const MemberCard = ({
   ellipse1539,
@@ -28,15 +28,24 @@ const MemberCard = ({
         src={ellipse1539}
       />
       <div className="flex flex-col items-center justify-start gap-[8px] max-lg:gap-1">
-        <div className="relative font-extrabold max-lg:text-[16px]" style={sankalpPatidarStyle}>
+        <div
+          className="relative font-extrabold max-lg:text-[16px]"
+          style={sankalpPatidarStyle}
+        >
           {sankalpPatidar}
         </div>
-        <div className="relative text-xl font-medium max-lg:text-[14px]" style={iITKharagpurStyle}>
+        <div
+          className="relative text-xl font-medium max-lg:text-[14px]"
+          style={iITKharagpurStyle}
+        >
           {iITKharagpurPresident}
-        <div className="relative text-xl font-medium max-lg:text-[14px]" style={iITKharagpurStyle}>
-          <a href={linkedIn}>LinkedIn</a>
+          <div
+            className="relative text-xl font-medium max-lg:text-[14px]"
+            style={iITKharagpurStyle}
+          >
+            <a href={linkedIn}>LinkedIn</a>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   );
