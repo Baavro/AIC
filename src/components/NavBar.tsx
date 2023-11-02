@@ -1,31 +1,39 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-  const [isSticky, setIsSticky] = useState(false);
-  const location = useLocation();
+  const [isHidden, setIsHidden] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
 
-  useEffect(() => {}, [setIsSticky]);
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      if (currentScrollPos > prevScrollPos) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
 
   return (
     <div
-      className={`bg-white ${
-        isSticky ? 'text-black fixed top-0 left-0 right-0' : ''
-      } ${isSticky ? 'bg-white' : ''} ${!isSticky ? '' : 'hidden'}`}
+      className={`bg-[#EBE9E6] text-black fixed top-0 left-0 right-0 z-50 ${
+        isHidden ? 'transform -translate-y-16' : ''
+      }`}
     >
       <div className="container mx-auto flex items-center justify-end p-4 space-x-4 lg:text-xl max-lg:text-lg max-sm:text-sm">
         <div className="flex space-x-4">
-          <NavLink to="/" label="Home" currentPath={location.pathname} />
-          <NavLink
-            to="/aboutus"
-            label="About"
-            currentPath={location.pathname}
-          />
-          <NavLink
-            to="/activities"
-            label="Activities"
-            currentPath={location.pathname}
-          />
+          <NavLink to="/" label="Home" />
+          <NavLink to="/aboutus" label="About" />
+          <NavLink to="/activities" label="Activities" />
         </div>
         <Link
           to="/register"
@@ -38,16 +46,9 @@ const NavBar = () => {
   );
 };
 
-const NavLink = ({ to, label, currentPath }: any) => {
-  const isActive = currentPath === to;
-
+const NavLink = ({ to, label }: any) => {
   return (
-    <Link
-      to={to}
-      className={`${
-        isActive ? 'text-blue-500' : 'text-black'
-      } hover:text-blue-500 p-1`}
-    >
+    <Link to={to} className="text-black hover:text-blue-500 p-1">
       {label}
     </Link>
   );

@@ -9,7 +9,7 @@ type Props = {};
 
 const HomePage = (props: Props) => {
   return (
-    <div className="flex h-full flex-col overflow-hidden">
+    <div className="flex h-full flex-col overflow-hidden mt-16">
       {/* Hero Section */}
       <div className="min-h-[calc(100vh-60px)] flex flex-col justify-start">
         <div

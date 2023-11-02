@@ -31,7 +31,7 @@ const RegistrationPage = (props: Props) => {
     }
   }, []);
   return (
-    <div className="min-h-screen flex flex-col justify-start">
+    <div className="min-h-screen flex flex-col justify-start mt-16">
       <div className="flex flex-col justify-start lg:py-4 max-lg:py-2 max-sm:py-1 items-center text-center lg:pt-16 max-lg:pt-8 max-sm:pt-6">
         <span className="lg:text-4xl max-lg:text-2xl max-sm:textl-xl font-bold lg:pb-8 max-lg:pb-6 max-sm:pb-4">
           Register for AI Council
