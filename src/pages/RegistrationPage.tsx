@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import SimpleBar from 'simplebar';
 import StepCard from '../components/StepsCard';
+import JoinOurCommunityCard from '../screens/JoinOurCommunityCard';
 
 const steps = [
   {
@@ -31,20 +32,29 @@ const RegistrationPage = (props: Props) => {
     }
   }, []);
   return (
-    <div className="min-h-screen flex flex-col justify-start mt-16">
-      <div className="flex flex-col justify-start lg:py-4 max-lg:py-2 max-sm:py-1 items-center text-center lg:pt-16 max-lg:pt-8 max-sm:pt-6">
-        <span className="lg:text-4xl max-lg:text-2xl max-sm:textl-xl font-bold lg:pb-8 max-lg:pb-6 max-sm:pb-4">
+    <div className="flex h-full flex-col overflow-hidden mt-16">
+      {/* Hero Section */}
+      <div className="min-h-[calc(100vh-60px)] flex flex-col justify-start items-center">
+        <div
+          className="h-[calc(100vh-320px)] w-[calc(100%_-_480px)] my-3 rounded-lg border overflow-hidden bg-cover bg-center bg-no-repeat relative"
+          style={{ backgroundImage: 'url(aic.jpeg)' }}
+        ></div>
+        <span className="lg:text-4xl max-lg:text-2xl max-sm:textl-xl font-bold pb-5 max-lg:pb-4 w-full text-center py-2">
           Register for AI Council
         </span>
         <div className="w-full flex justify-center items-center text-center">
           <button
             type="submit"
-            className="p-4 rounded-lg bg-blue-500 w-[40%]"
+            className="p-4 py-3 rounded-lg bg-blue-500 w-[40%] text-xl font-bold  text-white"
             title="Register for AI Council"
           >
             Register
           </button>
         </div>
+        <JoinOurCommunityCard />
+      </div>
+
+      <div className="flex flex-col justify-start lg:py-4 max-lg:py-2 max-sm:py-1 items-center text-center">
         <span className="lg:text-4xl max-lg:text-2xl max-sm:textl-xl font-bold lg:pt-16 max-lg:pt-8 max-sm:pt-4">
           Why register for AI Council?
         </span>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Members from '../components/Members';
+import Members from '../screens/Members';
 
 type Props = {};
 

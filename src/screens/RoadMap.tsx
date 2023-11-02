@@ -11,7 +11,7 @@ const RoadMap: React.FC = () => {
                 <ul className="list-inline events">
                   <li className="list-inline-item event-list translate-y-14 translate-x-[7.5rem]">
                     <div className="px-4 border-2 border-black border-solid rounded-[20px] p-2">
-                      <h5 className="lg:text-xl max-lg:text-lg max0sm:text-sm font-bold">
+                      <h5 className="lg:text-xl max-lg:text-lg max-sm:text-sm font-bold">
                         Detailed career Roadmap
                       </h5>
                       <p className="text-muted leading-5 text-[15px]">
@@ -24,7 +24,7 @@ const RoadMap: React.FC = () => {
                   </li>
                   <li className="list-inline-item event-list -translate-y-56 translate-x-[1.8rem]">
                     <div className="px-4 border-2 border-black border-solid rounded-[20px] p-2">
-                      <h5 className="lg:text-xl max-lg:text-lg max0sm:text-sm font-bold">
+                      <h5 className="lg:text-xl max-lg:text-lg max-sm::text-sm font-bold">
                         Detailed career Roadmap
                       </h5>
                       <p className="text-muted leading-5 text-[15px]">
@@ -37,7 +37,7 @@ const RoadMap: React.FC = () => {
                   </li>
                   <li className="list-inline-item event-list translate-y-14 -translate-x-[5.3rem]">
                     <div className="px-4 border-2 border-black border-solid rounded-[20px] p-2">
-                      <h5 className="lg:text-xl max-lg:text-lg max0sm:text-sm font-bold">
+                      <h5 className="lg:text-xl max-lg:text-lg max-sm::text-sm font-bold">
                         Detailed career Roadmap
                       </h5>
                       <p className="text-muted leading-5 text-[15px]">
@@ -50,7 +50,7 @@ const RoadMap: React.FC = () => {
                   </li>
                   <li className="list-inline-item event-list -translate-y-56 -translate-x-[11rem]">
                     <div className="px-4 border-2 border-black border-solid rounded-[20px] p-2">
-                      <h5 className="lg:text-xl max-lg:text-lg max0sm:text-sm font-bold">
+                      <h5 className="lg:text-xl max-lg:text-lg max-sm::text-sm font-bold">
                         Detailed career Roadmap
                       </h5>
                       <p className="text-muted leading-5 text-[15px]">

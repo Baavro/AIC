@@ -1,4 +1,4 @@
-import ObjectiveCard from './ObjectiveCard';
+import ObjectiveCard from '../components/ObjectiveCard';
 import SimpleBar from 'simplebar';
 import 'simplebar/dist/simplebar.min.css';
 import { useEffect, useRef } from 'react';

@@ -1,7 +1,8 @@
 import React from 'react';
-import Objective from '../components/Objective';
-import TimeLine from '../components/TimeLine';
-import RoadMap from '../components/RoadMap';
+import Objective from '../screens/Objective';
+import TimeLine from '../screens/TimeLine';
+import RoadMap from '../screens/RoadMap';
+import RoadMapMobile from '../screens/RoadMapMobile';
 
 type Props = {};
 
@@ -24,8 +25,14 @@ const ActivitiesPage = (props: Props) => {
       </div>
       {/* RoadMap */}
       <div className="flex flex-col justify-center lg:py-4 max-lg:py-2 max-sm:py-1 items-center text-center lg:pt-16 max-lg:pt-8 max-sm:pt-6 lg:min-h-[400px] max-lg:hidden">
-        <div className='lg:w-[80%] max-lg:w-full py-4 flex justify-center items-center'>
-            <RoadMap />
+        <div className="lg:w-[80%] max-lg:w-full py-4 flex justify-center items-center">
+          <RoadMap />
+        </div>
+      </div>
+      {/* RoadMap For Mobile */}
+      <div className="flex flex-col justify-center lg:py-4 max-lg:py-2 max-sm:py-1 items-center text-center lg:pt-16 max-lg:pt-8 max-sm:pt-6 lg:min-h-[400px] lg:hidden">
+        <div className="lg:w-[80%] max-lg:w-full py-4 flex justify-center items-center">
+          <RoadMapMobile />
         </div>
       </div>
       {/* TimeLine */}
@@ -33,8 +40,8 @@ const ActivitiesPage = (props: Props) => {
         <span className="lg:text-4xl max-lg:text-2xl max-sm:textl-xl font-bold lg:pb-8 max-lg:pb-6 max-sm:pb-4">
           Timeline
         </span>
-        <div className='min-h-screen lg:w-[80%] max-lg:w-full py-4'>
-            <TimeLine />
+        <div className="min-h-screen lg:w-[80%] max-lg:w-full py-4">
+          <TimeLine />
         </div>
       </div>
     </div>

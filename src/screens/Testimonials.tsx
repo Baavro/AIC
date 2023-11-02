@@ -1,7 +1,7 @@
 import SimpleBar from 'simplebar';
 import 'simplebar/dist/simplebar.min.css';
 import { useEffect, useRef } from 'react';
-import TestimonialCard from './TestimonialCard';
+import TestimonialCard from '../components/TestimonialCard';
 type Props = {};
 
 const testimonials = [

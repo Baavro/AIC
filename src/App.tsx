@@ -4,8 +4,8 @@ import RegistrationPage from './pages/RegistrationPage';
 import ActivitiesPage from './pages/ActivitiesPage';
 import AboutUsPage from './pages/AboutUsPage';
 import NavBar from './components/NavBar';
-import RegisterFooter from './components/RegisterFooter';
-import ContactFooter from './components/ContactFooter';
+import RegisterFooter from './screens/RegisterFooter';
+import ContactFooter from './screens/ContactFooter';
 
 function App() {
   return (

@@ -1,9 +1,9 @@
-import Activities from '../components/Activities';
-import JoinOurCommunityCard from '../components/JoinOurCommunityCard';
-import Objective from '../components/Objective';
-import WhatIs from '../components/WhatIs';
-import Members from '../components/Members';
-import Testimonials from '../components/Testimonials';
+import Activities from '../screens/Activities';
+import JoinOurCommunityCard from '../screens/JoinOurCommunityCard';
+import Objective from '../screens/Objective';
+import WhatIs from '../screens/WhatIs';
+import Members from '../screens/Members';
+import Testimonials from '../screens/Testimonials';
 
 type Props = {};
 

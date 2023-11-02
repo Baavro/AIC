@@ -1,5 +1,5 @@
 import 'simplebar/dist/simplebar.min.css';
-import MemberCard from './MemberCard';
+import MemberCard from '../components/MemberCard';
 
 const memberData = [
   {
