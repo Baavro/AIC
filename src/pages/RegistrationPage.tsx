@@ -36,7 +36,7 @@ const RegistrationPage = (props: Props) => {
       {/* Hero Section */}
       <div className="min-h-[calc(100vh-60px)] flex flex-col justify-start items-center">
         <div
-          className="h-[calc(100vh-320px)] w-[calc(100%_-_480px)] my-3 rounded-lg border overflow-hidden bg-cover bg-center bg-no-repeat relative"
+          className="h-[calc(100vh-320px)] lg:w-[calc(100%_-_480px)] max-lg:w-[calc(100%_-_40px)] max-sm:w-full my-3 rounded-lg border overflow-hidden bg-cover bg-center bg-no-repeat relative"
           style={{ backgroundImage: 'url(aic.jpeg)' }}
         ></div>
         <span className="lg:text-4xl max-lg:text-2xl max-sm:textl-xl font-bold pb-5 max-lg:pb-4 w-full text-center py-2">
