@@ -64,7 +64,7 @@ const submemberData = [
     propWidth1: '379px',
   },
   {
-    ellipse1539: '/akarshan.jpeg',
+    ellipse1539: '/Akarshan.jpeg',
     sankalpPatidar: 'Akarshan Kapoor',
     iITKharagpurPresident: 'IIT Mandi',
     linkedIn: 'https://www.linkedin.com/in/akarshan111/',
@@ -72,7 +72,7 @@ const submemberData = [
     propWidth1: 'unset',
   },
   {
-    ellipse1539: '/varun.jpg',
+    ellipse1539: '/Varun.jpg',
     sankalpPatidar: 'Varun Nagapal',
     iITKharagpurPresident: 'IIT Guwahati',
     linkedIn: 'https://www.linkedin.com/in/varun-nagpal-aa3a2121b/',
