@@ -1,16 +1,10 @@
 type Props = {};
 const ImgSrc = [
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
-  'https://placehold.co/90x90/png',
+  '/omdena.png',
+  '/adobe.png',
+  '/amazon.jpg',
+  '/google.png',
+  '/microsoft.png',
 ];
 
 

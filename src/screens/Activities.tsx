@@ -7,21 +7,21 @@ const activities = [
   {
     id: 1,
     title: 'AI Conferences and Workshops',
-    icon: 'https://www.figma.com/file/kRDD54NgrHKVe01BQTsrOB/Nova-Redesign?type=design&node-id=4683-38542&mode=design&t=xfQt8xL7oQga0Kkk-4',
+    icon: '/Activities1.jpg',
     description:
       'The council aims to organize & host various AI conferences and workshop to promote, collaboration and provide a platform for sharing the latest industry updates and research findings.',
   },
   {
     id: 2,
     title: 'Resources and Platform',
-    icon: 'https://www.figma.com/file/kRDD54NgrHKVe01BQTsrOB/Nova-Redesign?type=design&node-id=4690-41030&mode=design&t=xfQt8xL7oQga0Kkk-4',
+    icon: '/Activities2.jpg',
     description:
       'The council will work with experts to provide resources and platforms for learning industrial application of AI to build capacity of the beneficiaries in organizations across India.',
   },
   {
     id: 3,
     title: 'AI Competitions and Hackathons',
-    icon: 'https://www.figma.com/file/kRDD54NgrHKVe01BQTsrOB/Nova-Redesign?type=design&node-id=4690-41054&mode=design&t=xfQt8xL7oQga0Kkk-4',
+    icon: '/Activities3.jpg',
     description:
       'The council will partner with colleges and organizations to host AI-related competitions and hackathons to facilitate the development of innovative solutions in the field of AI.',
   },

@@ -3,46 +3,46 @@ import React from 'react';
 const steps = [
   {
     id: 1,
-    month: 'month 1',
+    month: 'December, 2023',
     name: 'Introduction and workshop',
     description:
-      'By joining the Artificial Intelligence Council, institutes can benefit from a range of valuable resources and opportunities that includes sponsorships for fests and events.',
+      'Events & workshops around technical aspects of Gen AI',
   },
   {
     id: 2,
-    month: 'month 2',
-    name: 'Introduction and workshop',
+    month: 'December, 2023',
+    name: 'Mentorship',
     description:
-      'By joining the Artificial Intelligence Council, institutes can benefit from a range of valuable resources and opportunities that includes sponsorships for fests and events.',
+      'Each School Club to be assigned a mentor IIT',
   },
   {
     id: 3,
-    month: 'month 3',
-    name: 'Introduction and workshop',
+    month: 'January,2024',
+    name: 'Dive into the field',
     description:
-      'By joining the Artificial Intelligence Council, institutes can benefit from a range of valuable resources and opportunities that includes sponsorships for fests and events.',
+      'Increasing awareness around other aspects of Gen AI in the field of design, music, video and more',
   },
   {
     id: 4,
-    month: 'month 4',
-    name: 'Introduction and workshop',
+    month: 'March, 2024',
+    name: 'Pan India Gen AI Hackathon',
     description:
-      'By joining the Artificial Intelligence Council, institutes can benefit from a range of valuable resources and opportunities that includes sponsorships for fests and events.',
+      'Pan India Gen AI Hackathon with participation from all AI Clubs with approx 5k participating students',
   },
   {
     id: 5,
-    month: 'month 5',
-    name: 'Introduction and workshop',
+    month: 'March, 2024',
+    name: 'Flagship AI dest',
     description:
-      'By joining the Artificial Intelligence Council, institutes can benefit from a range of valuable resources and opportunities that includes sponsorships for fests and events.',
+      'AI fest events & activities in all IITs/NITs to be made available to students of AI Clubs',
   },
-  {
-    id: 6,
-    month: 'month 6',
-    name: 'Introduction and workshop',
-    description:
-      'By joining the Artificial Intelligence Council, institutes can benefit from a range of valuable resources and opportunities that includes sponsorships for fests and events.',
-  },
+  // {
+  //   id: 6,
+  //   month: 'month 6',
+  //   name: 'Introduction and workshop',
+  //   description:
+  //     'By joining the Artificial Intelligence Council, institutes can benefit from a range of valuable resources and opportunities that includes sponsorships for fests and events.',
+  // },
 ];
 
 const Timeline = () => {
@@ -54,7 +54,7 @@ const Timeline = () => {
             <div className="flex items-center mb-2">
               <div
                 className={`w-10 h-10 text-white rounded-full flex items-center justify-center text-xl z-10 ${
-                  index + 1 < 3 ? 'bg-blue-500' : 'bg-[#D4D4D4]'
+                  index + 1 < 2 ? 'bg-blue-500' : 'bg-[#D4D4D4]'
                 }`}
               >
                 {index + 1}

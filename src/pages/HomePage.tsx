@@ -29,6 +29,7 @@ const HomePage = (props: Props) => {
                 title="join"
                 type="submit"
                 className="rounded-lg p-2 bg-[#EBE9E6] hover:bg-white text-black px-4"
+                onClick={() => window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSd1DOTmT4jv72menxS4LWtawbK102SiFqVgLHC1Sp_IWABPeQ/viewform'}
               >
                 Join AI council
               </button>
@@ -47,7 +48,7 @@ const HomePage = (props: Props) => {
       {/* Council Members */}
       <Members />
       {/* Testimonials */}
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   );
 };

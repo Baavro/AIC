@@ -17,6 +17,7 @@ const RegisterFooter = (props: Props) => {
           title="join"
           type="submit"
           className="rounded-lg p-2 bg-blue-500 hover:bg-blue-700 text-white px-4"
+          onClick={() => window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSd1DOTmT4jv72menxS4LWtawbK102SiFqVgLHC1Sp_IWABPeQ/viewform'}
         >
           Register now
         </button>

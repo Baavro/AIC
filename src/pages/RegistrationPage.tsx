@@ -7,17 +7,17 @@ const steps = [
   {
     id: 1,
     description:
-      'Let`s embody your beautiful ideas together, simplify the way you visualize your next big things.',
+      'Interested in opening AI Club at your Institute and being part of the AI Council?',
   },
   {
     id: 2,
     description:
-      'Let`s embody your beautiful ideas together, simplify the way you visualize your next big things.',
+      'Click on Register Now and fill out the form as College/School or Student Body.',
   },
   {
     id: 3,
     description:
-      'Let`s embody your beautiful ideas together, simplify the way you visualize your next big things.',
+      'We\'ll reach out to you, connect and help you with the process. Vola! Welcome to AI Council.',
   },
 ];
 
@@ -47,6 +47,7 @@ const RegistrationPage = (props: Props) => {
             type="submit"
             className="p-4 py-3 rounded-lg bg-blue-500 w-[40%] text-xl font-bold  text-white"
             title="Register for AI Council"
+            onClick={() => window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSd1DOTmT4jv72menxS4LWtawbK102SiFqVgLHC1Sp_IWABPeQ/viewform'}
           >
             Register
           </button>

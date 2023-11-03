@@ -2,24 +2,24 @@ import RoadMapMobileCard from '../components/RoadMapMobielCard';
 
 const cardData = [
   {
-    title: 'Detailed career Roadmap',
+    title: 'Introduction to the Future',
     description:
-      'The council aims to foster a culture of innovation and exploration in the field of AI, driving research and development initiatives across the country.',
+      'Get to know the latest technology and innovations in the field of AI through interactive workshops and hackathons',
   },
   {
-    title: 'Detailed career Roadmap',
+    title: 'Practical Learning experience',
     description:
-      'The council aims to foster a culture of innovation and exploration in the field of AI, driving research and development initiatives across the country.',
+      'Learn to build amazing real-world solutions through the Institute level projects with your mentor institute',
   },
   {
-    title: 'Detailed career Roadmap',
+    title: 'Dive into the sea of AI',
     description:
-      'The council aims to foster a culture of innovation and exploration in the field of AI, driving research and development initiatives across the country.',
+      'Relish the taste of AI buffet as we journey through the fields of AI in Imagery, Audio, Natural Language and much more',
   },
   {
-    title: 'Detailed career Roadmap',
+    title: 'Be part of the community',
     description:
-      'The council aims to foster a culture of innovation and exploration in the field of AI, driving research and development initiatives across the country.',
+      'Become a part of the community to enhance the learning experience. Brightest of brains all at one place!',
   },
 ];
 

@@ -13,7 +13,7 @@ const ActivityCard: React.FC<ActivityCardProps> = ({ activity }) => {
   return (
     <div className="bg-transparent flex flex-col justify-start items-center m-6 text-center space-y-2 p-2">
       <img
-        src={'https://placehold.co/150x150/png'}
+        src={activity.icon}
         alt="activity"
         className="h-[150px] w-[150px] max-sm:h-[100px] max-sm:w-[100px] rounded-full"
       />

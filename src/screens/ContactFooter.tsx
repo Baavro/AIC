@@ -18,7 +18,7 @@ const ContactFooter = (props: Props) => {
             Have questions or wish to collaborate with us? Reach us to
           </span>
           <span className="lg:text-2xl text-[#FFF] max-lg:text-xl max-sm:text-lg font-bold text-center w-full lg:pb-6 max-lg:pb-3 max-sm:pb-1 flex flex-row space-x-2 justify-center items-center">
-            <LuMail className="mt-1 mr-2" /> contact@aiaic.org
+            <LuMail className="mt-1 mr-2" /> contact@ai-council.in
           </span>
         </div>
         <div className="border border-solid border-[#E4E7EC] lg:w-full max-lg:w-[calc(100%_-_60px)]"></div>
