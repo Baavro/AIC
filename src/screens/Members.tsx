@@ -63,14 +63,22 @@ const submemberData = [
     propWidth: '291px',
     propWidth1: '379px',
   },
-  // {
-  //   ellipse1539: '/ellipse-1541@2x.png',
-  //   sankalpPatidar: 'Sparsh Agrawal',
-  //   iITKharagpurPresident: 'IIT (BHU) Varanasi',
-  //   linkedIn: 'https://www.linkedin.com/in/sparsh-agrawal17/',
-  //   propWidth: '291px',
-  //   propWidth1: 'unset',
-  // },
+  {
+    ellipse1539: '/akarshan.jpeg',
+    sankalpPatidar: 'Akarshan Kapoor',
+    iITKharagpurPresident: 'IIT Mandi',
+    linkedIn: 'https://www.linkedin.com/in/akarshan111/',
+    propWidth: '291px',
+    propWidth1: 'unset',
+  },
+  {
+    ellipse1539: '/varun.jpg',
+    sankalpPatidar: 'Varun Nagapal',
+    iITKharagpurPresident: 'IIT Guwahati',
+    linkedIn: 'https://www.linkedin.com/in/varun-nagpal-aa3a2121b/',
+    propWidth: '291px',
+    propWidth1: 'unset',
+  },
 ];
 
 const advisorsData = [

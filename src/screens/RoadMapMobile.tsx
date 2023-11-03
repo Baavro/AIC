@@ -2,24 +2,24 @@ import RoadMapMobileCard from '../components/RoadMapMobielCard';
 
 const cardData = [
   {
-    title: 'Introduction to the Future',
+    title: 'Jan-March',
     description:
-      'Get to know the latest technology and innovations in the field of AI through interactive workshops and hackathons',
+      'Build your AI Club along with your mentor IIT. Participate in the Events and Workshop to boost your career. ',
   },
   {
-    title: 'Practical Learning experience',
+    title: 'March - April',
     description:
-      'Learn to build amazing real-world solutions through the Institute level projects with your mentor institute',
+      'Be part of the AI fest and Pan India GenAI hackathon as AI Club to enhance your network ',
   },
   {
-    title: 'Dive into the sea of AI',
+    title: 'Summer, 2024',
     description:
-      'Relish the taste of AI buffet as we journey through the fields of AI in Imagery, Audio, Natural Language and much more',
+      'Learn from the best, Develop Real-World Projects and Get Industrial exposure through the builders zone',
   },
   {
-    title: 'Be part of the community',
+    title: 'Beyond..',
     description:
-      'Become a part of the community to enhance the learning experience. Brightest of brains all at one place!',
+      'Become a part of the community to grow with the brightest of brains all at one place!',
   },
 ];
 
@@ -38,3 +38,5 @@ const RoadMapMobile = () => {
 };
 
 export default RoadMapMobile;
+
+                      

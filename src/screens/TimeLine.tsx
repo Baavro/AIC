@@ -10,7 +10,7 @@ const steps = [
   },
   {
     id: 2,
-    month: 'December, 2023',
+    month: 'January, 2024',
     name: 'Mentorship',
     description:
       'Each School Club to be assigned a mentor IIT',
