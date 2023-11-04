@@ -13,8 +13,7 @@ const steps = [
     month: 'December, 2024',
     name: 'Diving deeper',
     description:
-      '1) Events & workshops around technical aspects of Gen AI. 2) Increasing awareness around other aspects of Gen AI in the field of design, music, video and more. 3) Opening up Gen AI Clubs in 15 NITs, 3 IIITs & 5 private colleges
-',
+      '1) Events & workshops around technical aspects of Gen AI. 2) Increasing awareness around other aspects of Gen AI in the field of design, music, video and more. 3) Opening up Gen AI Clubs in 15 NITs, 3 IIITs & 5 private colleges',
   },
   {
     id: 3,
