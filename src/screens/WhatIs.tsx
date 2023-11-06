@@ -17,7 +17,7 @@ const WhatIs = (props: Props) => {
           What is AI Council?
         </span>
         <span className="text-[#292524] lg:w-[75%] max-lg:w-[90%] max-sm:w-full px-4 lg:text-xl max-lg:text-lg max-sm:text-sm leading-8">
-          Copy The All India Artificial Intelligence Council is a collaborative
+          The All India Artificial Intelligence Council is a collaborative
           agglomerate of Artificial intelligence organisations of colleges, with
           select IITs at the helm. We foster a culture of innovation and
           exploration in the field of AI, driving research and development
