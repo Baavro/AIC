@@ -81,30 +81,30 @@ const submemberData = [
   },
 ];
 
-const advisorsData = [
-  {
-    ellipse1539: '/ellipse-1539@2x.png',
-    sankalpPatidar: 'Sankalp Patidar',
-    iITKharagpurPresident: 'IIT Kharagpur',
-    linkedIn: 'https://www.linkedin.com/in/sankalp-patidar-08ba2920a/',
-  },
-  {
-    ellipse1539: '/ellipse-1540@2x.png',
-    sankalpPatidar: 'Viren Inaniyan',
-    iITKharagpurPresident: 'IIT Bombay',
-    linkedIn: 'https://www.linkedin.com/in/viren-inaniyan-959897187/',
-    propWidth: '291px',
-    propWidth1: '379px',
-  },
-  {
-    ellipse1539: '/ellipse-1541@2x.png',
-    sankalpPatidar: 'Sparsh Agrawal',
-    iITKharagpurPresident: 'IIT (BHU) Varanasi',
-    linkedIn: 'https://www.linkedin.com/in/sparsh-agrawal17/',
-    propWidth: '291px',
-    propWidth1: 'unset',
-  },
-];
+// const advisorsData = [
+//   {
+//     ellipse1539: '/ellipse-1539@2x.png',
+//     sankalpPatidar: 'Sankalp Patidar',
+//     iITKharagpurPresident: 'IIT Kharagpur',
+//     linkedIn: 'https://www.linkedin.com/in/sankalp-patidar-08ba2920a/',
+//   },
+//   {
+//     ellipse1539: '/ellipse-1540@2x.png',
+//     sankalpPatidar: 'Viren Inaniyan',
+//     iITKharagpurPresident: 'IIT Bombay',
+//     linkedIn: 'https://www.linkedin.com/in/viren-inaniyan-959897187/',
+//     propWidth: '291px',
+//     propWidth1: '379px',
+//   },
+//   {
+//     ellipse1539: '/ellipse-1541@2x.png',
+//     sankalpPatidar: 'Sparsh Agrawal',
+//     iITKharagpurPresident: 'IIT (BHU) Varanasi',
+//     linkedIn: 'https://www.linkedin.com/in/sparsh-agrawal17/',
+//     propWidth: '291px',
+//     propWidth1: 'unset',
+//   },
+// ];
 
 const Members = () => {
   return (

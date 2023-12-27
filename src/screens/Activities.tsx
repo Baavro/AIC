@@ -7,7 +7,7 @@ const activities = [
   {
     id: 1,
     title: 'AI Conferences and Workshops',
-    icon: '/Activities1.jpg',
+    icon: '/activities1.png',
     description:
       'The council aims to organize & host various AI conferences and workshop to promote, collaboration and provide a platform for sharing the latest industry updates and research findings.',
   },

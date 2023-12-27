@@ -3,7 +3,6 @@ import JoinOurCommunityCard from '../screens/JoinOurCommunityCard';
 import Objective from '../screens/Objective';
 import WhatIs from '../screens/WhatIs';
 import Members from '../screens/Members';
-import Testimonials from '../screens/Testimonials';
 
 type Props = {};
 
