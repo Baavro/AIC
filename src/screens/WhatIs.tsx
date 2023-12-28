@@ -7,11 +7,9 @@ const ImgSrc = [
   '/microsoft.png',
 ];
 
-
-
 const WhatIs = (props: Props) => {
   return (
-    <div className="min-h-screen flex flex-col justify-start">
+    <div className="h-full flex flex-col justify-start">
       <div className="flex flex-col justify-start lg:py-4 max-lg:py-2 max-sm:py-1 items-center text-center lg:pt-16 max-lg:pt-8 max-sm:pt-6">
         <span className="lg:text-4xl max-lg:text-2xl max-sm:textl-xl font-bold lg:pb-8 max-lg:pb-6 max-sm:pb-4">
           What is AI Council?
@@ -32,12 +30,16 @@ const WhatIs = (props: Props) => {
         <div className="flex flex-wrap justify-evenly items-center p-4 lg:w-[60%] max-lg:w-[80%] max-sm:w-full">
           {ImgSrc.map((imgSrc) => {
             return (
-              <img
-                src={imgSrc}
-                alt="company"
+              <div
                 key={imgSrc}
-                className="h-[90px] w-[90px] max-sm:h-[80px] max-sm:w-[80px] flex-[0] order-[0] flex-grow-0 lg:m-6 max-lg:m-4 max-sm:m-2 rounded-full hover:border-2 hover:border-black hover:shadow-sm hover:shadow-black"
-              />
+                className="bg-white h-[90px] w-[90px] max-sm:h-[80px] max-sm:w-[80px] rounded-full overflow-hidden items-center flex justify-center"
+              >
+                <img
+                  src={imgSrc}
+                  alt="Activity Icon"
+                  className="h-[70px] w-[60px] max-sm:h-[55px] max-sm:w-[50px] object-contain object-center"
+                />
+              </div>
             );
           })}
         </div>

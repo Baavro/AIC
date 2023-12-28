@@ -1,4 +1,3 @@
-import React from 'react';
 import Objective from '../screens/Objective';
 import TimeLine from '../screens/TimeLine';
 import RoadMap from '../screens/RoadMap';

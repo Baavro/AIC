@@ -9,7 +9,7 @@ const RoadMap: React.FC = () => {
             <div className="card-body">
               <div className="hori-timeline" dir="ltr">
                 <ul className="list-inline events">
-                  <li className="list-inline-item event-list translate-y-14 translate-x-[7.5rem]">
+                  <li className="list-inline-item event-list translate-y-20 translate-x-[7.5rem]">
                     <div className="px-4 border-2 border-black border-solid rounded-[20px] p-2">
                       <h5 className="lg:text-xl max-lg:text-lg max-sm:text-sm font-bold">
                         Jan-March
@@ -18,7 +18,7 @@ const RoadMap: React.FC = () => {
                        Build your AI Club along with your mentor IIT. Participate in the Events and Workshop to boost your career. 
                       </p>
                     </div>
-                    <TbTriangleFilled className="border-b-4 border-black border-solid text-5xl -translate-y-[11rem] translate-x-32" />
+                    <TbTriangleFilled className="border-b-4 border-black border-solid text-5xl -translate-y-[9.7rem] translate-x-32" />
                   </li>
                   <li className="list-inline-item event-list -translate-y-56 translate-x-[1.8rem]">
                     <div className="px-4 border-2 border-black border-solid rounded-[20px] p-2">
@@ -31,7 +31,7 @@ const RoadMap: React.FC = () => {
                     </div>
                     <TbTriangleInvertedFilled className="text-5xl border-t-4 border-black border-solid translate-x-28" />
                   </li>
-                  <li className="list-inline-item event-list translate-y-14 -translate-x-[5.3rem]">
+                  <li className="list-inline-item event-list translate-y-20 -translate-x-[5.3rem]">
                     <div className="px-4 border-2 border-black border-solid rounded-[20px] p-2">
                       <h5 className="lg:text-xl max-lg:text-lg max-sm::text-sm font-bold">
                         Summer, 2024
@@ -40,7 +40,7 @@ const RoadMap: React.FC = () => {
                         Learn from the best, Develop Real-World Projects and Get Industrial exposure through the builders zone
                       </p>
                     </div>
-                    <TbTriangleFilled className="border-b-4 border-black border-solid text-5xl -translate-y-[11rem] translate-x-32" />
+                    <TbTriangleFilled className="border-b-4 border-black border-solid text-5xl -translate-y-[9.7rem] translate-x-32" />
                   </li>
                   <li className="list-inline-item event-list -translate-y-56 -translate-x-[11rem]">
                     <div className="px-4 border-2 border-black border-solid rounded-[20px] p-2">
