@@ -28,7 +28,7 @@ function EventsPage() {
               className="rounded-lg p-2 bg-black hover:border hover:border-[#4E7BEF] hover:shadow-sm hover:shadow-[#4E7BEF] text-white px-6"
               onClick={() =>
                 (window.location.href =
-                  'https://docs.google.com/forms/d/e/1FAIpQLSd1DOTmT4jv72menxS4LWtawbK102SiFqVgLHC1Sp_IWABPeQ/viewform')
+                  'https://docs.google.com/forms/d/e/1FAIpQLSesLsbE_hjyzgG_UwjN9BraIadpS9fjMXGmRYrp1zi565KCzA/viewform?usp=sharing ')
               }
             >
               Register now
@@ -65,7 +65,7 @@ function EventsPage() {
           className="rounded-lg p-2 bg-black hover:border hover:border-[#4E7BEF] hover:shadow-sm hover:shadow-[#4E7BEF] text-white px-6 mt-8"
           onClick={() =>
             (window.location.href =
-              'https://docs.google.com/forms/d/e/1FAIpQLSd1DOTmT4jv72menxS4LWtawbK102SiFqVgLHC1Sp_IWABPeQ/viewform')
+              'https://docs.google.com/forms/d/e/1FAIpQLSesLsbE_hjyzgG_UwjN9BraIadpS9fjMXGmRYrp1zi565KCzA/viewform?usp=sharing ')
           }
         >
           Register now
@@ -95,7 +95,7 @@ function EventsPage() {
           <span style={{ width: '100%', maxWidth: '600px' }}>
             <iframe
               title="Google Form"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSd1DOTmT4jv72menxS4LWtawbK102SiFqVgLHC1Sp_IWABPeQ/viewform"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSesLsbE_hjyzgG_UwjN9BraIadpS9fjMXGmRYrp1zi565KCzA/viewform?usp=sharing"
               width="100%"
               height="600"
               loading="lazy"
