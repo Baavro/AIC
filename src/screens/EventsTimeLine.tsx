@@ -18,7 +18,7 @@ const steps = [
   },
   {
     id: 4,
-    month: '14th-15th January, 2023',
+    month: '13th-14th January, 2023',
     name: '48 hour AI hackathon'
   },
   {
