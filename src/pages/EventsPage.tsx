@@ -12,7 +12,7 @@ function EventsPage() {
         <div className="absolute inset-0 flex items-center justify-center bg-transparent opacity-90">
           <div className="text-black flex flex-col justify-center items-center space-y-4 max-lg:space-y-6 leading-5 lg:w-[calc(100%_-_180px)] max-lg:w-full text-center">
             <span className="text-3xl max-sm:text-xl border-2 border-black font-bold text-[#4E7BEF] p-1 px-2 rounded-lg">
-              13 Jan - 14 Jan, 2024
+              20 Jan - 21 Jan, 2024
             </span>
             <span className="lg:text-7xl max-lg:text-4xl font-bold lg:w-[calc(100%_-_540px)] max-lg:w-full">
               Join India's Premier AI Hackathon
