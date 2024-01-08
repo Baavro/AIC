@@ -8,22 +8,22 @@ const steps = [
   },
   {
     id: 2,
-    month: '04th January, 2023',
+    month: '12th January, 2023',
     name: 'Registration closes'
   },
   {
     id: 3,
-    month: '06th-07th January, 2023',
+    month: '14-15th January, 2023',
     name: 'Pre-Event Contest'
   },
   {
     id: 4,
-    month: '13th-14th January, 2023',
+    month: '20th-21st January, 2023',
     name: '48 hour AI hackathon'
   },
   {
     id: 5,
-    month: '20th January, 2023',
+    month: '28th January, 2023',
     name: 'Winner announcement'
   },
 ];
